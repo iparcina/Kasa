@@ -14,8 +14,8 @@ namespace Kasa.Controllers
 {
     public class ProductsController : ApiController
     {
-        private proizvodi_Entities db = new proizvodi_Entities();
-
+        private proizvodi_Entities1 db = new proizvodi_Entities1();
+        
         // GET: api/Products
         [HttpGet]
         public IQueryable<Proizvodi> GetProizvodi()

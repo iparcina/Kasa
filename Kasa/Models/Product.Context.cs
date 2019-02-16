@@ -13,10 +13,10 @@ namespace Kasa.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class proizvodi_Entities : DbContext
+    public partial class proizvodi_Entities1 : DbContext
     {
-        public proizvodi_Entities()
-            : base("name=proizvodi_Entities")
+        public proizvodi_Entities1()
+            : base("name=proizvodi_Entities1")
         {
         }
     
