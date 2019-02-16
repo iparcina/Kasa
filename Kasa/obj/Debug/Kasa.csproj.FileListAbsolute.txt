@@ -66,3 +66,6 @@ C:\Users\Ivana Parčina\source\repos\Kasa\Kasa\bin\Microsoft.CodeDom.Providers.D
 C:\Users\Ivana Parčina\source\repos\Kasa\Kasa\obj\Debug\Kasa.csproj.CopyComplete
 C:\Users\Ivana Parčina\source\repos\Kasa\Kasa\obj\Debug\Kasa.dll
 C:\Users\Ivana Parčina\source\repos\Kasa\Kasa\obj\Debug\Kasa.pdb
+C:\Users\Ivana Parčina\source\repos\Kasa\Kasa\bin\System.Web.Cors.dll
+C:\Users\Ivana Parčina\source\repos\Kasa\Kasa\bin\System.Web.Http.Cors.dll
+C:\Users\Ivana Parčina\source\repos\Kasa\Kasa\bin\System.Web.Http.Cors.xml

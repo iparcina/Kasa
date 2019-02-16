@@ -9,9 +9,12 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
 using Kasa.Models;
-
+using System.Web.Http.Cors;
 namespace Kasa.Controllers
 {
+     [EnableCorsAttribute("*","*","*")]
+
+
     public class ProductsController : ApiController
     {
         private proizvodi_Entities1 db = new proizvodi_Entities1();
