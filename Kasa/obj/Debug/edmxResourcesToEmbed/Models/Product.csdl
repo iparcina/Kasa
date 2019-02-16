@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Proizvodi">
+    <Key>
+      <PropertyRef Name="ID_proizvod" />
+      <PropertyRef Name="Naziv" />
+      <PropertyRef Name="Sifra" />
+      <PropertyRef Name="Cijena" />
+    </Key>
+    <Property Name="ID_proizvod" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Naziv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Sifra" Type="Int32" Nullable="false" />
+    <Property Name="Cijena" Type="Double" Nullable="false" />
+    <Property Name="Kolicina" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="proizvodi_Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Proizvodi" EntityType="Self.Proizvodi" />
+  </EntityContainer>
+</Schema>
