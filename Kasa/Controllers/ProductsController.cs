@@ -92,6 +92,7 @@ namespace Kasa.Controllers
         }
 
         // DELETE: api/Products/5
+
         [ResponseType(typeof(Proizvodi))]
         public IHttpActionResult DeleteProizvodi(int id)
         {
