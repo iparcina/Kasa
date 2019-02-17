@@ -35,7 +35,12 @@ namespace Kasa
                routeTemplate: "api/deleteproduct/{id}",
                defaults: new { controller = "Products", action = "DeleteProizvodi" }
                );
+            config.Routes.MapHttpRoute(
+               name: "GetProduct",
+               routeTemplate: "api/getproduct/{id}",
+               defaults: new { controller = "Products", action = "GetProizvodi" }
 
+               );
 
 
             config.EnableCors();
