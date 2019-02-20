@@ -14,7 +14,7 @@ namespace Kasa.Controllers
 {
      [EnableCorsAttribute("*","*","*")]
 
-
+    
     public class ProductsController : ApiController
     {
         private proizvodi_Entities1 db = new proizvodi_Entities1();
@@ -29,7 +29,7 @@ namespace Kasa.Controllers
         // GET: api/Products/5
 
         [ResponseType(typeof(Proizvodi))]
-        public IHttpActionResult GetProizvodi(int id)
+        public IHttpActionResult GetProizvod(int id)
         {
             Proizvodi proizvodi = db.Proizvodi.Find(id);
             if (proizvodi == null)

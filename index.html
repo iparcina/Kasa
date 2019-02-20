@@ -2,23 +2,53 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/css/custom.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
 </head>
 
-<body>
+<body >
+  
         <div class="row">
                 <div class="col">
-
-                        <div class="jumbotron">
-                                <h1>Proizvodi</h1>
-                              </div>
+                      <table id ="data" class="table table-sm table-dark">
+                          <thead>
+                              <tr>
+                                <th scope="col" width=10% >Šifra</th>
+                                <th scope="col">Naziv</th>
+                                <th scope="col">Cijena</th>
+                              </tr>
+                            </thead>
+                            <tbody id ="tbody"></tbody>
+                      </table>
                 </div>
-                <div class="col">col</div>
                 <div class="w-100"></div>
-                <div class="col">col</div>
-                <div class="col">col</div>
+                <div class="col">
+                    <button type="button" class="btn-primary btn-lg" id="addProduct">Dodaj proizvod</button>  
+                    <form id="form1" style = "display:none; ;" class="form-group"> <br>
+                        <label>Šifra:</label>
+                        <input name = "Sifra" type="text" class="form-control" id="Sifra">
+                        
+                        <label>Naziv:</label>
+                        <input name = "Naziv" type="text" class ="form-control" id="Naziv">
+
+                        <label>Cijena:</label>
+                        <input name = "Cijena" type="text" class ="form-control" id="Cijena">
+                      <br>
+                         <button type="button" class="btn-primary" id="submit">Dodaj</button>
+                      </form>
+                  </div>
+                <div class="col">
+                  <button type="button" class="btn-primary btn-lg" id="deleteProduct">Izbriši proizvod</button>  
+                  <form id="form2" style = "display:none; ;" class="form-group"> <br>
+                      <label>Šifra:</label>
+                      <input name = "Name" type="text" class="form-control" id="Name1">
+                    <br>
+                       <button type="button" class="btn-primary" id="submit1" style = "align-content: right;">Izbriši</button>
+                    </form>
+                
+              </div>
               </div>
 
 

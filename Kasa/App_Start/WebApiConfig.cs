@@ -38,7 +38,7 @@ namespace Kasa
             config.Routes.MapHttpRoute(
                name: "GetProduct",
                routeTemplate: "api/getproduct/{id}",
-               defaults: new { controller = "Products", action = "GetProizvodi" }
+               defaults: new { controller = "Products", action = "GetProizvod" }
 
                );
 
